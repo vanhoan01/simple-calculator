@@ -1,16 +1,42 @@
 # calculator
 
-A new Flutter project.
+A Simple Calculator for Flutter Learning Practice.
 
-## Getting Started
+## Installation
+1. [Install Flutter](https://docs.flutter.dev/get-started/install)
+2. [Setup VSCode](https://docs.flutter.dev/get-started/editor?tab=vscode)
 
-This project is a starting point for a Flutter application.
+## Run App (Windows)
+1. Open PowerShell:
+   - Press `Win + S`, type `PowerShell`, and select "Windows PowerShell."
 
-A few resources to get you started if this is your first Flutter project:
+2. Navigate to code repo:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+For example, when code is located at ``code/dev/simple-calculator``:
+```
+cd code/dev/simple-calculator
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Launch web app at port ``8080``:
+```
+flutter run -d chrome --web-port=8080
+```
+Press `Q` or `Ctrl+C` to terminate app
+
+4. Edit code & Hot reload:
+- Add/edit code at VSCode
+- Switch to PowerShell terminal then press `r` to apply changes
+
+## TODOs:
+
+1. Implement the actual math operations:
+https://github.com/azeravn-developer/simple-calculator/blob/master/lib/calculator.dart#L190
+
+2. Prevent user to enter invalid input:
+https://github.com/azeravn-developer/simple-calculator/blob/master/lib/calculator.dart#L182
+
+3. Show history tracking:
+https://github.com/azeravn-developer/simple-calculator/blob/master/lib/calculator.dart#L162
+
+4. Save/Load history to persisted disk so that calculation history is maintained between runs:
+https://github.com/azeravn-developer/simple-calculator/blob/master/lib/calculator.dart#L169
