@@ -2,19 +2,19 @@
 
 A Simple Calculator for Flutter Learning Practice.
 
-## Installation
+## Install Flutter
 1. [Install Flutter](https://docs.flutter.dev/get-started/install)
 2. [Setup VSCode](https://docs.flutter.dev/get-started/editor?tab=vscode)
 
-## Run App (Windows)
+## Run App (on Windows)
 1. Open PowerShell:
    - Press `Win + S`, type `PowerShell`, and select "Windows PowerShell."
 
 2. Navigate to code repo:
 
-For example, when code is located at ``code/dev/simple-calculator``:
+For example, when code is located at ``simple-calculator``:
 ```
-cd code/dev/simple-calculator
+cd simple-calculator
 ```
 
 3. Launch web app at port ``8080``:
