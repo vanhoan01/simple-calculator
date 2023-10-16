@@ -17,6 +17,11 @@ For example, when code is located at ``simple-calculator``:
 cd simple-calculator
 ```
 
+Install dependencies:
+```
+flutter pub get
+```
+
 3. Launch web app at port ``8080``:
 ```
 flutter run -d chrome --web-port=8080
