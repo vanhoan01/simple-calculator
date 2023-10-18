@@ -45,3 +45,9 @@ https://github.com/azeravn-developer/simple-calculator/blob/master/lib/calculato
 
 4. Save/Load history to persisted disk so that calculation history is maintained between runs:
 https://github.com/azeravn-developer/simple-calculator/blob/master/lib/calculator.dart#L169
+
+## Learning Sources:
+1. [Dart Language](https://dart.dev/language)
+2. [Dartpad](https://dartpad.dev/?)
+3. [Flutter UI](https://docs.flutter.dev/ui)
+4. [Flutter Interaction](https://docs.flutter.dev/ui/interactivity)
